@@ -1,0 +1,153 @@
+body {
+    background-color: #1f2430;
+    font-family:monospace;
+    color: #E3E4DB;
+    
+    
+}
+
+
+a {
+    color: #F07167; 
+    
+    
+}
+
+a:hover{
+    background-color: #F07167;
+    color: #E3E4DB;
+}
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+}
+
+@keyframes apparition {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes apparitionLeft {
+    from{
+        opacity: 0;
+        transform: translatex(-100px);    }
+    to{
+        opacity: 1;
+        transform: translatex(0px);
+
+    }
+}
+
+
+@media screen and (min-width: 1330px){
+    h1 {
+        font-size: 50px;
+        color: #E3E4DB;
+        
+        
+    }
+    
+    
+    img {
+        position: fixed;
+        top: 20%;
+        left: 50px;
+        animation: apparitionLeft 0.8s
+    }
+    
+    
+    .techno{
+        color: #3FA7D6;
+        font-size: 300px;
+        
+        
+    }
+    
+    
+    
+    
+    
+    p {
+        font-size: 40px;
+        font-weight: bold;
+        color: #3FA7D6;
+    }
+    
+    
+    
+    span{
+        border-radius: 30px;
+        background: #3FA7D6;
+        color: #E3E4DB;
+        padding: 10px
+    }
+    
+    .main {
+        
+        height: auto;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        border: solid 2px #E3E4DB ;
+        animation: apparition 0.8s;
+    
+    }
+    
+    i{
+        color: #3FA7D6;
+        
+        animation: fadein 3s;
+    
+    }
+    
+    
+    
+}
+
+
+@media screen and (max-width: 1330px){
+    h1 {
+        font-size: 20px;
+        color: #E3E4DB;
+        
+        
+    }
+
+    img{
+        
+        width: 50%;}
+
+    .techno{
+        color: #3FA7D6;
+        font-size: 20px;
+        
+        
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #3FA7D6;
+    }
+
+    span{
+        border-radius: 30px;
+        background: #3FA7D6;
+        color: #E3E4DB;
+        padding: 3px;
+        font-size: 10px;
+        
+        
+    }
+    
+}

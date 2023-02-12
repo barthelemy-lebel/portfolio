@@ -8,13 +8,13 @@ body {
 
 
 a {
-    color: #F07167; 
+    color: #677DB7; 
     
     
 }
 
 a:hover{
-    background-color: #F07167;
+    background-color: #677DB7;
     color: #E3E4DB;
 }
 
@@ -59,6 +59,7 @@ a:hover{
     
     
     img {
+        width: 25%;
         position: fixed;
         top: 20%;
         left: 50px;
@@ -67,7 +68,7 @@ a:hover{
     
     
     .techno{
-        color: #3FA7D6;
+        color: #5B8C5A;   
         font-size: 300px;
         
         
@@ -80,14 +81,14 @@ a:hover{
     p {
         font-size: 40px;
         font-weight: bold;
-        color: #3FA7D6;
+        color: #5B8C5A;
     }
     
     
     
     span{
         border-radius: 30px;
-        background: #3FA7D6;
+        background: #5B8C5A;
         color: #E3E4DB;
         padding: 10px
     }
@@ -95,6 +96,7 @@ a:hover{
     .main {
         
         height: auto;
+        width: 70%;
         position: absolute;
         top: 10px;
         right: 30px;
@@ -104,7 +106,7 @@ a:hover{
     }
     
     i{
-        color: #3FA7D6;
+        color: #5B8C5A;
         
         animation: fadein 3s;
     
@@ -128,7 +130,7 @@ a:hover{
         width: 50%;}
 
     .techno{
-        color: #3FA7D6;
+        color: #5B8C5A;
         font-size: 20px;
         
         
@@ -137,12 +139,12 @@ a:hover{
     p {
         font-size: 20px;
         font-weight: bold;
-        color: #3FA7D6;
+        color: #5B8C5A;
     }
 
     span{
         border-radius: 30px;
-        background: #3FA7D6;
+        background: #5B8C5A;
         color: #E3E4DB;
         padding: 3px;
         font-size: 10px;

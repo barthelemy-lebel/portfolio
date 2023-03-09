@@ -51,7 +51,7 @@ a:hover{
 
 @media screen and (min-width: 1330px){
     h1 {
-        font-size: 50px;
+        font-size: 2vw;
         color: #E3E4DB;
         
         
@@ -131,13 +131,13 @@ a:hover{
 
     .techno{
         color: #5B8C5A;
-        font-size: 20px;
+        font-size: 30%;
         
         
     }
 
     p {
-        font-size: 20px;
+        font-size: 2.5vw;
         font-weight: bold;
         color: #5B8C5A;
     }
@@ -147,7 +147,7 @@ a:hover{
         background: #5B8C5A;
         color: #E3E4DB;
         padding: 3px;
-        font-size: 10px;
+        font-size: 2vw;
         
         
     }

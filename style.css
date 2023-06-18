@@ -4,7 +4,7 @@ body {
     background-color: #1f2430;
     font-family: monospace;
     color: #e3e4db;
-    
+    animation: fadeIn 2.5s;    
     
 }
 
